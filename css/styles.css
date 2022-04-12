@@ -91,6 +91,7 @@ body {
   margin-right: 50px;
 }
 
+
 .link-nav-studio,
 .link-nav-portfolio,
 .link-nav-contacts {
@@ -98,6 +99,9 @@ body {
   line-height: 1.14;
   letter-spacing: 0.02em;
 }
+.link-nav-studio::after {
+  content: ;
+  
 .header-link-tel {
   margin-left: 50px;
 }
@@ -220,6 +224,7 @@ body {
   margin-bottom: -30px;
 }
 .what-are-we-doing-item {
+  position: relative;
   margin-left: 30px;
   margin-bottom: 30px;
   flex-basis: calc((100% - 90px) / 3);
@@ -231,6 +236,23 @@ body {
   text-align: center;
   color: var(--main-color);
   margin-bottom: 50px;
+}
+.card-name-box{
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 370px;
+  height: 70px;
+  padding: 27px 0;
+  background: rgba(47, 48, 58, 0.8);
+}
+.card-name{
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
 }
 /* === main section our team ==== */
 
