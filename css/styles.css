@@ -464,6 +464,32 @@ body {
 .footer-social-link:focus {
   background-color: var(--alt-color);
 }
+/* ======== modal ======= */
+.backdrop{
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(163, 36, 36, 0.2);
+  
+}
+.modal{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  min-height: 580px;
+  min-width: 530px;
+  background-color: #FFFFFF;
+  
+
+}
+.modal.is-hidden{
+  opacity: 0.5;
+  pointer-events: none; 
+
+}
 
 /* ========================== portfolio ==================== */
 .portfolio-elements {
